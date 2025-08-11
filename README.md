@@ -38,9 +38,10 @@ pip install -r requirements.txt
 # 4. Run the application
 python main.py (for CLI UI)
 streamlit run main.py (for streamlit UI)
+```
 
-
-Note: create a .env file in the project directory and set the following variables before running the application.
+## Note:
+create a .env file in the project directory and set the following variables before running the application.
 OPENAI_API_KEY= "your_groq_api_key"
 OPENAI_API_BASE=https://api.groq.com/openai/v1
 
